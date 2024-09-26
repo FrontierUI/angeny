@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+    <title>Routes Digital | Presentation Design Product</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/slick.css" rel="stylesheet" />
+    <link href="assets/css/slick-theme.css" rel="stylesheet" />
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <!-- <link href="assets/css/globals.css" rel="stylesheet" /> -->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link href="assets/css/devicesResponsive.css" rel="stylesheet" />
+
+    <!-- <link href="assets/css/swiper-bundle.css" rel="stylesheet" /> -->
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body>
+
+    <main class="wrapper">
+
+        <header class="secondaryBg">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="/assets/images/routeslogo.svg" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav align-items-center justify-content-center flex-grow-1 pe-3">
+                                <li class="nav-item active"> <a class="nav-link" href="#">Pricing </a> </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">Capabilities</a>
+                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <svg class="w-7 h-7 bg-indigo-200 fill-current" fill="#6366f1"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                    <path
+                                                        d="M3 3H11V11H3V3ZM3 13H11V21H3V13ZM13 3H21V11H13V3ZM13 13H21V21H13V13Z">
+                                                    </path>
+                                                </svg>
+                                                Creative Campaigns
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <svg class="w-7 h-7 bg-indigo-200 fill-current" fill="#6366f1"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                    <path
+                                                        d="M3 3H11V11H3V3ZM3 13H11V21H3V13ZM13 3H21V11H13V3ZM13 13H21V21H13V13Z">
+                                                    </path>
+                                                </svg>
+                                                Web Design & development
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <svg class="w-7 h-7 bg-indigo-200 fill-current" fill="#6366f1"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                    <path
+                                                        d="M3 3H11V11H3V3ZM3 13H11V21H3V13ZM13 3H21V11H13V3ZM13 13H21V21H13V13Z">
+                                                    </path>
+                                                </svg>
+                                                App Design & development
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">Vertical</a>
+                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <svg class="w-7 h-7 bg-indigo-200 fill-current" fill="#6366f1"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                    <path
+                                                        d="M3 3H11V11H3V3ZM3 13H11V21H3V13ZM13 3H21V11H13V3ZM13 13H21V21H13V13Z">
+                                                    </path>
+                                                </svg>
+                                                Agencies
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <svg class="w-7 h-7 bg-indigo-200 fill-current" fill="#6366f1"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                    <path
+                                                        d="M3 3H11V11H3V3ZM3 13H11V21H3V13ZM13 3H21V11H13V3ZM13 13H21V21H13V13Z">
+                                                    </path>
+                                                </svg>
+                                                Brands
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <svg class="w-7 h-7 bg-indigo-200 fill-current" fill="#6366f1"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                    <path
+                                                        d="M3 3H11V11H3V3ZM3 13H11V21H3V13ZM13 3H21V11H13V3ZM13 13H21V21H13V13Z">
+                                                    </path>
+                                                </svg>
+                                                Direct Customer
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#"> Our Work </a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"> About Us </a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"> Blog </a></li>
+                            </ul>
+                            <button class="blueBtn">Get Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- innerBannerSec start -->
+        <section class="innerBannerSec secondaryBg py-5">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-between">
+                    <div class="col-lg-5">
+                        <h2 class="primaryHeading whiteText mb-0 "> Presentation Design Product</h2>
+                        <p class="primaryText whiteText mt-2 mb-4">Engage, persuade and delight with Routes.design
+                            Presentation Design Product. From on-point PowerPoints to pitch-perfect pitch decks, we
+                            craft custom presentations and templates that suit your needs.</p>
+                        <button class="secondaryBtn me-2">Get Started</button>
+                        <button class="tertiaryBtn">See More</button>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="bannerImg">
+                            <img src="/assets/images/bannerImg.png" alt="bannerImg" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolioSec start -->
+        <section class="portfolioSec">
+            <div class="container-fluid">
+                <div class="portfolioMarqueeRight">
+                    <div class="inner">
+                        <img src="/assets/images/dove.jpg" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/DrKate.jpg" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/iil.jpg" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/mazit.jpeg" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/mobile.jpg" alt="Placeholder" />
+                    </div>
+                </div>
+                <div class="portfolioMarqueeLeft">
+                    <div class="inner">
+                        <img src="/assets/images/dove.jpg" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/DrKate.jpg" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/iil.jpg" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/mazit.jpeg" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/mobile.jpg" alt="Placeholder" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- partnerSec start -->
+        <section class="partnerSec">
+            <div class="container-fluid">
+                <div class="partnerMarquee">
+                    <div class="inner">
+                        <img src="/assets/images/clientsLogo/workair.png" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/clientsLogo/workasc.png" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/clientsLogo/workbayer.png" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/clientsLogo/workbeachfox.png" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/clientsLogo/workbembien.png" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/clientsLogo/workcreactco.png" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/clientsLogo/workcsquad.png" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/clientsLogo/workfaizasteel.png" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/clientsLogo/workfaw.png" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/clientsLogo/workgetz.png" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/clientsLogo/workicipak.png" alt="Placeholder" />
+                    </div>
+                    <div class="inner">
+                        <img src="/assets/images/clientsLogo/workiil.png" alt="Placeholder" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- buildSec start -->
+        <section class="buildSec secondaryBg py-5">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="buildCntnt">
+                            <h6 class="tertiaryText mb-2 whiteText">BUILT FOR COMMS, STRATEGY & MARKETING TEAMS</h6>
+                            <h2 class="primaryHeading mb-0 whiteText"> Elevate your presentations and sales decks with
+                                Superside</h2>
+                            <p class="primaryText mt-2 mb-4 whiteText">We do your ideas justice with beautifully
+                                designed presentations that follow a logical structure, showcase your data in a clear,
+                                compelling manner and convey your message in the most persuasive way possible.</p>
+                            <p class="primaryText mb-0 whiteText">Whether you need a pitch deck to persuade VCs,
+                                templates for internal communications or slides for a key event, our world-class team of
+                                presentation designers will work with you to deliver a stunning final product.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="buildImg">
+                            <img src="/assets/images/buildImg.png" alt="buildImg" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- extensiveSerSec start -->
+        <section class="extensiveSerSec">
+            <div class="container">
+                <div class="extensiveSerHead text-center mb-5">
+                    <h6 class="tertiaryText mb-0">Tailored Business Solutions</h6>
+                    <h2 class="primaryHeading mb-0">Extensive Presentation Design Product</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="extensiveSer">
+                            <img src="/assets/images/extensiveSer-1.jpg" alt="extensiver-servoce-Bg" class="w-100">
+                            <div class="extensiveSerOverlay">
+                                <h6 class="tertiaryText whiteText">Custom PowerPoint design</h6>
+                                <p class="primaryText whiteText">Get unique, visually stunning PowerPoint designs that
+                                    bring your ideas to life,
+                                    ensuring
+                                    your presentations are engaging and persuasive.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="extensiveSer">
+                            <img src="/assets/images/extensiveSer-2.jpg" alt="extensiver-servoce-Bg" class="w-100">
+                            <div class="extensiveSerOverlay">
+                                <h6 class="tertiaryText whiteText">Presentation templates</h6>
+                                <p class="primaryText whiteText">Enjoy customizable, on-brand presentation templates
+                                    that deliver consistent messaging,
+                                    incorporating existing designs or built from scratch.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="extensiveSer">
+                            <img src="/assets/images/extensiveSer-3.jpg" alt="extensiver-servoce-Bg" class="w-100">
+                            <div class="extensiveSerOverlay">
+                                <h6 class="tertiaryText whiteText">Custom & motion graphics</h6>
+                                <p class="primaryText whiteText">Request captivating animations and custom graphics to
+                                    add flair to your presentation
+                                    designs and a dynamic layer to your storytelling.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="extensiveSer">
+                            <img src="/assets/images/extensiveSer-4.jpg" alt="extensiver-servoce-Bg" class="w-100">
+                            <div class="extensiveSerOverlay">
+                                <h6 class="tertiaryText whiteText">Data visualization</h6>
+                                <p class="primaryText whiteText">Let us transform your complex data into clear,
+                                    insightful and delightful visuals, making
+                                    your information more accessible and impactful.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="extensiveSer">
+                            <img src="/assets/images/extensiveSer-5.jpg" alt="extensiver-servoce-Bg" class="w-100">
+                            <div class="extensiveSerOverlay">
+                                <h6 class="tertiaryText whiteText">Infographics</h6>
+                                <p class="primaryText whiteText">Add visually striking infographics to your presentation
+                                    designs to convey information
+                                    visually and share engagingly digestible messages.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projectCompleteion start -->
+        <section class="projectCompleteion secondaryBg">
+            <div class="container">
+                <div class="projectHead text-center mb-5">
+                    <h6 class="tertiaryText whiteText mb-0">STRIKE UP THE BRAND</h6>
+                    <h2 class="primaryHeading whiteText mb-0">Branding product that maximize speed, value and impact
+                    </h2>
+                </div>
+                <div class="projectBody">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="projectCompletionDet p-4 rounded">
+                                <h6 class="primaryText fw-bold">PROJECTS COMPLETED</h6>
+                                <h2 class="primaryHeading">800+</h2>
+                                <p class="primaryText mb-0">Brand design products sold and counting</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="projectCompletionDet p-4 rounded">
+                                <h6 class="primaryText fw-bold">TOTAL CUSTOMERS</h6>
+                                <h2 class="primaryHeading">1000+</h2>
+                                <p class="primaryText mb-0">Total customers used our brand design product</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="projectCompletionDet p-4 rounded">
+                                <h6 class="primaryText fw-bold">TOTAL HOURS</h6>
+                                <h2 class="primaryHeading">10K+</h2>
+                                <p class="primaryText mb-0">Hours dedicated to brand design product</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="projectCompletionDet p-4 rounded">
+                                <h6 class="primaryText fw-bold">CUSTOMER SATISFACTION</h6>
+                                <h2 class="primaryHeading">4.9/5</h2>
+                                <p class="primaryText mb-0">Average branding product approval rating</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- extensiveSerSec start -->
+        <section class="extensiveSerSec">
+            <div class="container">
+                <div class="extensiveSerHead text-center mb-5">
+                    <h6 class="tertiaryText mb-0">From Brand Decks to Pitch Decks</h6>
+                    <h2 class="primaryHeading mb-0">Specialized Presentation Design for every business need</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="extensiveSer">
+                            <img src="/assets/images/extensiveSer-4.jpg" alt="extensiver-servoce-Bg" class="w-100">
+                            <div class="extensiveSerOverlay">
+                                <h6 class="tertiaryText whiteText">Business presentations</h6>
+                                <p class="primaryText whiteText">Get professional, effective presentations tailored to
+                                    your business, designed to communicate your message clearly and leave a lasting
+                                    impression on your audience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="extensiveSer">
+                            <img src="/assets/images/extensiveSer-5.jpg" alt="extensiver-servoce-Bg" class="w-100">
+                            <div class="extensiveSerOverlay">
+                                <h6 class="tertiaryText whiteText">Elevator & pitch decks</h6>
+                                <p class="primaryText whiteText">Collaborate on persuasive pitch decks perfect for
+                                    supporting narratives and sealing partnerships, presented in a compelling format to
+                                    capture immediate interest.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="extensiveSer">
+                            <img src="/assets/images/extensiveSer-1.jpg" alt="extensiver-servoce-Bg" class="w-100">
+                            <div class="extensiveSerOverlay">
+                                <h6 class="tertiaryText whiteText">Sales decks & reports</h6>
+                                <p class="primaryText whiteText">Get sales decks designed to drive decisions and
+                                    conversions, combining persuasive storytelling with clear data visualizations to
+                                    communicate your message.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="extensiveSer">
+                            <img src="/assets/images/extensiveSer-2.jpg" alt="extensiver-servoce-Bg" class="w-100">
+                            <div class="extensiveSerOverlay">
+                                <h6 class="tertiaryText whiteText">Investor decks & reports</h6>
+                                <p class="primaryText whiteText">Share detailed presentations and reports to engage
+                                    investors, showcasing your business's value and potential with clear, persuasive
+                                    narratives and visuals.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="extensiveSer">
+                            <img src="/assets/images/extensiveSer-3.jpg" alt="extensiver-servoce-Bg" class="w-100">
+                            <div class="extensiveSerOverlay">
+                                <h6 class="tertiaryText whiteText">Slide decks</h6>
+                                <p class="primaryText whiteText">Get engaging slide decks customized to meet your
+                                    specific objectives, whether you’re presenting ideas or getting buy-in from an
+                                    internal or external audience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- expertiseSec start -->
+        <section class="expertiseSec secondaryBg">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-5">
+                        <div class="expertiseHead">
+                            <h6 class="tertiaryText whiteText mb-0">FORMAT FLUENCY</h6>
+                            <h2 class="primaryHeading whiteText mb-0">Expertise across all Presentation Design platforms
+                            </h2>
+                            <p class="primaryText whiteText mb-0">Our presentation designers can do it all. With
+                                expertise across all major presentation
+                                design platforms, we can adapt to your preferred tools and integrate with your creative
+                                workflows. Whether you’re a PowerPoint aficionado or Google Slides devotee, we’ll design
+                                in your platform of choice to deliver a powerful, high-impact presentation.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="expertiseList">
+                            <ul class="list-inline mb-0">
+                                <li>
+                                    <img src="/assets/images/expertiseicon-1.png" alt="expertiseIcon">
+                                    <div class="expertiseListCntnt">
+                                        <h6 class="whiteText">SEAMLESS CREATION</h6>
+                                        <h4 class="whiteText fw-bold">Microsoft PowerPoint</h4>
+                                        <p class="primaryText whiteText mb-0">An oldie but a goodie. Our designers are
+                                            experts in this leading presentation
+                                            software, ensuring your presentations are visually compelling and easy to
+                                            build on.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="/assets/images/expertiseicon-2.png" alt="expertiseIcon">
+                                    <div class="expertiseListCntnt">
+                                        <h6 class="whiteText">CLOUD-BASED</h6>
+                                        <h4 class="whiteText fw-bold">Google Slides</h4>
+                                        <p class="primaryText whiteText mb-0">A versatile staple, Google Slides is
+                                            another platform our designers know through and through, so they can build
+                                            you engaging, interactive presentations designs.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="/assets/images/expertiseicon-3.png" alt="expertiseIcon">
+                                    <div class="expertiseListCntnt">
+                                        <h6 class="whiteText">CREATIVE ELEGANCE</h6>
+                                        <h4 class="whiteText fw-bold">Keynote</h4>
+                                        <p class="primaryText whiteText mb-0">More of a Keynote connoisseur? Apple’s
+                                            Keynote is another one of our specialities. We’ll deliver stunning
+                                            presentations on the double, so you can communicate in style.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="/assets/images/expertiseicon-4.png" alt="expertiseIcon">
+                                    <div class="expertiseListCntnt">
+                                        <h6 class="whiteText">REAL-TIME COLLABORATION</h6>
+                                        <h4 class="whiteText fw-bold">Figma</h4>
+                                        <p class="primaryText whiteText mb-0">If you live in Figma, we’re right there
+                                            with you. Our designers are fluent in Figma and prepared to deliver
+                                            high-quality presentation designs using this collaborative platform.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="/assets/images/expertiseicon-5.png" alt="expertiseIcon">
+                                    <div class="expertiseListCntnt">
+                                        <h6 class="whiteText">FULL COVERAGE</h6>
+                                        <h4 class="whiteText fw-bold">Other platforms</h4>
+                                        <p class="primaryText whiteText mb-0">Have another platform in mind? We’re here
+                                            for it. With a global team of presentation designers to tap into, we have
+                                            skills across the board and can cater to any preference.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- featureSec start -->
+        <section class="featureSec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="feature p-4 rounded">
+                            <img src="/assets/images/featureicon-1.svg" alt="feature-icon">
+                            <h4 class="tertiaryText mb-0">Fixed Monthly Rate</h4>
+                            <p class="mb-0 primaryText">No hidden costs. Pay the same price every month.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature p-4 rounded">
+                            <img src="/assets/images/featureicon-2.svg" alt="feature-icon">
+                            <h4 class="tertiaryText mb-0">Unlimited Requests</h4>
+                            <p class="mb-0 primaryText">Request as many designs as needed — we won't stop you.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature p-4 rounded">
+                            <img src="/assets/images/featureicon-3.svg" alt="feature-icon">
+                            <h4 class="tertiaryText mb-0">Unlimited Revisions</h4>
+                            <p class="mb-0 primaryText">Request as many revisions as your project needs.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature p-4 rounded">
+                            <img src="/assets/images/featureicon-4.svg" alt="feature-icon">
+                            <h4 class="tertiaryText mb-0">Same-day Delivery</h4>
+                            <p class="mb-0 primaryText">Get your design back same day.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature p-4 rounded">
+                            <img src="/assets/images/featureicon-5.svg" alt="feature-icon">
+                            <h4 class="tertiaryText mb-0">Professional Designers</h4>
+                            <p class="mb-0 primaryText">Work with battle-tested professionals only.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature p-4 rounded">
+                            <img src="/assets/images/featureicon-6.svg" alt="feature-icon">
+                            <h4 class="tertiaryText mb-0">Designer Match</h4>
+                            <p class="mb-0 primaryText">Each request goes to the most qualified designer for the job.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- packageSec start -->
+        <section class="packageSec secondaryBg">
+            <div class="container">
+                <div class="packageHead mb-4 pb-4 border-bottom">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-lg-6">
+                            <h2 class="bigHeading whiteText mb-2">Presentation design </h2>
+                            <p class="mb-0 primaryText whiteText">Get your presentation design done, we transform your
+                                ideas into visually engaging and persuasive presentations.</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="pricing text-center">
+                                <h2 class="bigHeading mb-2 whiteText">$899</h2>
+                                <p class="mb-0 primaryText whiteText fw-bold">PER PROJECT</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="packageBody">
+                    <ul class="list-inline mb-4 d-flex flex-wrap">
+                        <li class="primaryText">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27"
+                                fill="none">
+                                <rect x="0.333374" y="0.5" width="26" height="26" rx="13" fill="#FF8B20"></rect>
+                                <path d="M19.3334 10L11.0834 18L7.33337 14.3636" stroke="white" stroke-width="3"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            Custom presentation templates
+                        </li>
+                        <li class="primaryText">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27"
+                                fill="none">
+                                <rect x="0.333374" y="0.5" width="26" height="26" rx="13" fill="#FF8B20"></rect>
+                                <path d="M19.3334 10L11.0834 18L7.33337 14.3636" stroke="white" stroke-width="3"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            Slide design and layout
+                        </li>
+                        <li class="primaryText">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27"
+                                fill="none">
+                                <rect x="0.333374" y="0.5" width="26" height="26" rx="13" fill="#FF8B20"></rect>
+                                <path d="M19.3334 10L11.0834 18L7.33337 14.3636" stroke="white" stroke-width="3"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            Infographic and data visualization
+                        </li>
+                        <li class="primaryText">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27"
+                                fill="none">
+                                <rect x="0.333374" y="0.5" width="26" height="26" rx="13" fill="#FF8B20"></rect>
+                                <path d="M19.3334 10L11.0834 18L7.33337 14.3636" stroke="white" stroke-width="3"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            Copywriting and content structuring
+                        </li>
+                        <li class="primaryText">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27"
+                                fill="none">
+                                <rect x="0.333374" y="0.5" width="26" height="26" rx="13" fill="#FF8B20"></rect>
+                                <path d="M19.3334 10L11.0834 18L7.33337 14.3636" stroke="white" stroke-width="3"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            Interactive elements
+                        </li>
+                        <li class="primaryText">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27"
+                                fill="none">
+                                <rect x="0.333374" y="0.5" width="26" height="26" rx="13" fill="#FF8B20"></rect>
+                                <path d="M19.3334 10L11.0834 18L7.33337 14.3636" stroke="white" stroke-width="3"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            Presentation revisions and updates
+                        </li>
+                        <li class="primaryText">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27"
+                                fill="none">
+                                <rect x="0.333374" y="0.5" width="26" height="26" rx="13" fill="#FF8B20"></rect>
+                                <path d="M19.3334 10L11.0834 18L7.33337 14.3636" stroke="white" stroke-width="3"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            24/7 timezone coverage
+                        </li>
+                        <li class="primaryText">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27"
+                                fill="none">
+                                <rect x="0.333374" y="0.5" width="26" height="26" rx="13" fill="#FF8B20"></rect>
+                                <path d="M19.3334 10L11.0834 18L7.33337 14.3636" stroke="white" stroke-width="3"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            Turnaround times from 12 hours
+                        </li>
+                    </ul>
+                    <button class="w-100 primaryBtn">Start $1,799 /PRO</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- reviewSec start -->
+        <section class="reviewSec">
+            <div class="container">
+                <div class="reviewSlider">
+                    <div class="col-lg-6">
+                        <div class="review">
+                            <h4 class="tertiaryText mb-0">The team at Duck.design did a great job</h4>
+                            <p class="primaryText mb-0">I've tried many other outsourcing and freelancing companies
+                                before and have been
+                                disappointed
+                                almost in all occasions. Duck.design was an entirely different experience! I am
+                                extremely
+                                happy with the results and the high quality of their work. Recommend</p>
+                            <div class="userDet mt-4 mb-2">
+                                <img src="/assets/images/userIcon.jpeg" alt="userIcon">
+                                <div class="userDetCntnt">
+                                    <h6 class="fw-bold mb-0">Stanislav Kostadinov</h6>
+                                    <p class="primaryText mb-0">Growth Marketing Manager at <a href="#">OLX Group</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <ul class="list-inline mb-0 d-flex align-items-center">
+                                    <li>
+                                        <img src="/assets/images/review-star5.svg" alt="rating">
+                                    </li>
+                                    <li class="mx-2">
+                                        <span>on</span>
+                                    </li>
+                                    <li>
+                                        <img src="/assets/images/trustpilotsmall.svg" alt="rating">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="review">
+                            <h4 class="tertiaryText mb-0">The team at Duck.design did a great job</h4>
+                            <p class="primaryText mb-0">I've tried many other outsourcing and freelancing companies
+                                before and have been
+                                disappointed
+                                almost in all occasions. Duck.design was an entirely different experience! I am
+                                extremely
+                                happy with the results and the high quality of their work. Recommend</p>
+                            <div class="userDet mt-4 mb-2">
+                                <img src="/assets/images/userIcon.jpeg" alt="userIcon">
+                                <div class="userDetCntnt">
+                                    <h6 class="fw-bold mb-0">Stanislav Kostadinov</h6>
+                                    <p class="primaryText mb-0">Growth Marketing Manager at <a href="#">OLX Group</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <ul class="list-inline mb-0 d-flex align-items-center">
+                                    <li>
+                                        <img src="/assets/images/review-star5.svg" alt="rating">
+                                    </li>
+                                    <li class="mx-2">
+                                        <span>on</span>
+                                    </li>
+                                    <li>
+                                        <img src="/assets/images/trustpilotsmall.svg" alt="rating">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="review">
+                            <h4 class="tertiaryText mb-0">The team at Duck.design did a great job</h4>
+                            <p class="primaryText mb-0">I've tried many other outsourcing and freelancing companies
+                                before and have been
+                                disappointed
+                                almost in all occasions. Duck.design was an entirely different experience! I am
+                                extremely
+                                happy with the results and the high quality of their work. Recommend</p>
+                            <div class="userDet mt-4 mb-2">
+                                <img src="/assets/images/userIcon.jpeg" alt="userIcon">
+                                <div class="userDetCntnt">
+                                    <h6 class="fw-bold mb-0">Stanislav Kostadinov</h6>
+                                    <p class="primaryText mb-0">Growth Marketing Manager at <a href="#">OLX Group</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <ul class="list-inline mb-0 d-flex align-items-center">
+                                    <li>
+                                        <img src="/assets/images/review-star5.svg" alt="rating">
+                                    </li>
+                                    <li class="mx-2">
+                                        <span>on</span>
+                                    </li>
+                                    <li>
+                                        <img src="/assets/images/trustpilotsmall.svg" alt="rating">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ctaSec start -->
+        <section class="ctaSec py-5 mx-5 secondaryBg borderRadius20">
+            <div class="container">
+                <div class="ctaHeading">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <h2 class="bigHeading mb-4 whiteText">Your one-stop-shop for good design</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-5">
+                        <div class="ctaDetail">
+                            <p class="secondaryText mb-0 whiteText">Come join 400+ companies who are doing design at
+                                scale without
+                                increasing
+                                headcount</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <button class="primaryBtn w-100 text-uppercase">get started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- faqSec start -->
+        <section class="faqSec">
+            <div class="container">
+                <h2 class="primaryHeading secondaryColor mb-0">FAQs</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button tertiaryText" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is Branding?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body p-0">
+                                <p class="mb-0 primaryText">Branding is the process of creating a distinct image and
+                                    identity for a
+                                    business in
+                                    the
+                                    consumers' minds. It involves the use of elements like logos, colors and typography
+                                    to convey a
+                                    company's values, message, and offerings. One of the goals of brand identity
+                                    services is to
+                                    differentiate a company from its competitors so that when consumers think of a
+                                    particular
+                                    product or service, they think of your business first.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button tertiaryText" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What Information is Needed for the Development of a Brand Identity?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body p-0">
+                                <p class="mb-0 primaryText">To develop an effective identity, it's essential to
+                                    understand the
+                                    business's goals,
+                                    target audience, values, competitors, and the message they want to convey. This
+                                    information
+                                    helps the team providing branding design services to create a visual representation
+                                    that
+                                    accurately reflects the brand.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button tertiaryText" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Why Work With a Brand Identity Agency?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body p-0">
+                                <p class="mb-2 primaryText">An agency that provides branding and identity design
+                                    services offers
+                                    both expertise
+                                    and an outsider's perspective, which can sometimes be invaluable. They can identify
+                                    gaps,
+                                    opportunities, and areas of improvement that internal teams might overlook.
+                                    Partnering with an
+                                    agency can save time, reduce errors, and result in a more polished and effective
+                                    corporate
+                                    identity.</p>
+                                <p class="mb-0 primaryText">At Routes.design we can help you create an identity that
+                                    aligns with
+                                    your goals and keeps your
+                                    brand consistent across all platforms. Our team also stays updated on the latest
+                                    trends and
+                                    consumer behavior, so that your brand remains relevant and attractive.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer start -->
+        <footer class="secondaryBg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footerLogo">
+                            <a href="index.html">
+                                <img src="/assets/images/whiteLogo.svg" alt="logo">
+                            </a>
+                            <ul class="list-inline mt-3 mb-0 d-flex ">
+                                <li>
+                                    <a href="#"><img src="/assets/images/linkedInBLue.svg" alt="linkedin"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="/assets/images/facebookBlue.svg" alt="facebook"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="/assets/images/twitterBlue.svg" alt="twitter"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="/assets/images/instagramBlue.svg" alt="instagram"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footerContent">
+                            <h6 class="whiteText tertiaryText">Capabilities</h6>
+                            <ul class="list-inline mb-0">
+                                <li><a href="#" class="primaryText whiteText">Social Media Management</a></li>
+                                <li><a href="#" class="primaryText whiteText">Brand Identity</a></li>
+                                <li><a href="#" class="primaryText whiteText">Web design & development</a></li>
+                                <li><a href="#" class="primaryText whiteText">App Design & Development</a></li>
+                                <li><a href="#" class="primaryText whiteText">Creative Campaigns</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footerContent">
+                            <h6 class="whiteText tertiaryText">About</h6>
+                            <ul class="list-inline mb-0">
+                                <li><a href="#" class="primaryText whiteText">About</a></li>
+                                <li><a href="#" class="primaryText whiteText">Catalog</a></li>
+                                <li><a href="#" class="primaryText whiteText">Pricing</a></li>
+                                <li><a href="#" class="primaryText whiteText">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footerContent contactContent">
+                            <h6 class="whiteText tertiaryText">Contact Us</h6>
+                            <ul class="list-inline mb-0">
+                                <li><a class="primaryText whiteText"
+                                        href="mailto:info@routesdigital.us">info@routesdigital.us</a></li>
+                                <li class="mb-4"><a class="primaryText whiteText"
+                                        href="tel:+923008800151">+92-300-8800-151</a></li>
+                                <li><a href="#" class="primaryText whiteText">Book a call</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- bottomRow start -->
+        <div class="bottomRow secondaryBg">
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-3">
+                        <ul class="list-inline mb-2 d-flex align-items-center justify-content-between">
+                            <li><a href="#" class="primaryText whiteText">Privacy Policy</a></li>
+                            <li><a href="#" class="primaryText whiteText">Terms & Conditions</a></li>
+                        </ul>
+                        <p class="mb-0 whiteText">© 2024 Routes Digital. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <ul class="list-inline mb-0 d-flex align-items-between">
+                            <li><a href="#"><img src="/assets/images/upwork.png" alt="upwork"></a></li>
+                            <li><a href="#"><img src="/assets/images/bark.png" alt="bark"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="assets/js/jquery-3.7.1.js"></script>
+    <!-- <script src="assets/js/swiper-bundle.min.js"></script> -->
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="assets/js/gsap.min.js"></script> -->
+
+    <!-- <script>
+        gsap.set('.routesicon', {});
+    </script> -->
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

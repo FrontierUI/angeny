@@ -1,0 +1,64 @@
+@media screen and (min-width: 1659px) {
+  .videoCont {
+    top: -8rem;
+  }
+
+  .brandTitle {
+    font-size: 5.5rem !important;
+    line-height: 1 !important;
+  }
+
+  .routesHeroBG {
+    top: 17rem;
+  }
+
+  .routesHeroBGFlip {
+    top: 15rem;
+  }
+
+  .videoRoutes {
+    margin-top: -22rem;
+  }
+
+  .largeScreen {
+    margin-top: -5rem !important;
+  }
+}
+
+@media screen and (min-width: 1289px) and (max-width: 1395px) {
+  .videoCont {
+    margin-top: -7rem !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  * {
+    /* outline: 1px solid red !important; */
+  }
+
+  .horLine {
+    display: none;
+  }
+
+  .routesHeroBG,
+  .routesHeroBGFlip {
+    display: none;
+  }
+
+  .manPartner {
+    margin: 1rem auto;
+  }
+
+  .plansNumb::before {
+    display: none;
+  }
+
+  nav {
+    border-radius: 0;
+  }
+
+  .prodContext {
+    padding: 0 1rem;
+    flex-direction: column;
+  }
+}

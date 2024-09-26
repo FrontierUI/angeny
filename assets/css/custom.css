@@ -1,0 +1,563 @@
+a {
+  text-decoration: none;
+}
+/* color css */
+.primaryBg {
+  background: #fef3d8;
+}
+.secondaryBg {
+  background: #0000ff;
+}
+.tertiaryBg {
+  background: #0b1926;
+}
+.gradientBg {
+  background: linear-gradient(94deg, #ffca41 7.46%, #ffda7a 103.56%);
+}
+.whiteText {
+  color: #fff !important;
+}
+.lylicText {
+  color: #7e98fd;
+}
+.secondaryColor {
+  color: #0000ff !important;
+}
+.bg-indigo-200 {
+  background-color: rgb(199 210 254);
+}
+.text-indigo-500 {
+  color: rgb(99 102 241);
+}
+
+/* radius css */
+.borderRadius20 {
+  border-radius: 20px;
+}
+
+/* button css */
+.primaryBtn {
+  font-weight: 700;
+  color: #161b26;
+  border-radius: 50px;
+  padding: 1rem 1.5rem;
+  background: #fff;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  box-shadow: 0 0 0 2.5px #fff inset, 0 0 0 11px rgba(255, 255, 255, 0.3);
+  transition: 0.5s all;
+  border: #fff;
+}
+.primaryBtn:hover {
+  box-shadow: none;
+}
+.secondaryBtn {
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  background: #0f2133;
+  border: 1px solid #0f2133;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  transition: 0.5s all;
+}
+.secondaryBtn:hover {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+.tertiaryBtn {
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  background: transparent;
+  border: 1px solid #fff;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  transition: 0.5s all;
+}
+.tertiaryBtn:hover {
+  background: #0f2133;
+  color: #fff;
+  border-color: #0f2133;
+}
+.greenBtn {
+  font-weight: 700;
+  color: #0f2133;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  background: #5cff85;
+  border: 1px solid #5cff85;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  transition: 0.5s all;
+}
+.greenBtn:hover {
+  background: transparent;
+  color: #5cff85;
+}
+.callBtn{
+  font-weight: 700;
+  color:black;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  background:white;
+  border: 1px solid white;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  transition: 0.5s all;
+}
+.callBtn:hover{
+  background-color: #000;
+  color: white;
+}
+.darkBlueBg{
+  background-color: #0000a3 !important;
+}
+.anchorBtn {
+  font-weight: 700;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  background: transparent;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  transition: 0.5s all;
+}
+.anchorBtn:hover {
+  color: #5cff85;
+}
+.blueBtn {
+  font-weight: 700;
+  color: #fff;
+  border-radius: 50px;
+  padding: 0.8rem 1.7rem;
+  background: #0000ff;
+  border: 1px solid #0000ff;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  transition: 0.5s all;
+}
+.blueBtn:hover {
+  background: transparent;
+  color: #0000ff;
+}
+/* heading css */
+.bigHeading {
+  font-weight: 900;
+  line-height: normal;
+  color: #161b26;
+  font-size: 64px;
+}
+.primaryHeading {
+  font-weight:bolder;
+  line-height: normal;
+  color: #161b26;
+  font-size: 52px;
+}
+.tertiaryText {
+  font-weight: 700;
+  color: #161b26;
+  font-size: 24px;
+  line-height: 1.8;
+}
+
+/* text css */
+.primaryText {
+  font-weight: 400;
+  color: #404246;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.secondaryText {
+  font-weight: 400;
+  color: #161b26;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+
+/* packageSec start  */
+.packageSec {
+  padding: 5rem 0;
+}
+.packageBody li {
+  width: 50%;
+  /* padding-left: 3rem; */
+  position: relative;
+  color: #fff;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.packageBody li svg {
+  margin-right: 0.5rem;
+}
+
+/* faq css */
+.faqSec {
+  padding: 5rem 0;
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+  background: transparent;
+  color: #000;
+}
+.accordion-item {
+  background: transparent;
+  border: 0;
+  padding: 2rem 0;
+  border-bottom: 1px solid #2196f3;
+}
+.accordion-button {
+  background: transparent;
+  padding: 0 0rem 0.5rem 3rem;
+  position: relative;
+}
+.accordion-button:before {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 0;
+  background-image: url(../images/FAQs\ Icon.svg);
+  background-position: center;
+  background-size: cover;
+  height: 35px;
+  width: 35px;
+}
+.accordion-button::after {
+  display: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+  border: transparent;
+}
+
+/* portfolioSec css  */
+.portfolioSec {
+  padding: 2rem 0 0;
+}
+.portfolioMarqueeLeft .slick-slide {
+  float: right;
+}
+.portfolioSec img {
+  width: 420px;
+  height: 290px;
+  object-fit: cover;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+/* partnerSec css */
+.partnerSec {
+  padding: 1rem 0;
+}
+.partnerSec img {
+  width: 150px;
+  height: 40px;
+  object-fit: contain;
+  margin: 0.5rem;
+}
+
+/* serviceMain css */
+.serviceMain .service {
+
+  padding-bottom: 3rem;
+  border-bottom: 5px solid rgb(255 255 255 / 85%);
+  min-height: 300px;
+  margin-bottom: 3rem;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+  box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+  min-height: 400px;
+}
+.serviceMain .service img {
+  width: 80px;
+  height: auto;
+  margin-bottom:10px ;
+}
+
+/* efficencyInner css */
+.efficencySec {
+  padding: 5rem 0;
+}
+
+.efficencyInnerPckg{
+  background-image: url(/assets/images/AIbackground-2.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.efficencyInner {
+  background-image: url(/assets/images/AIbackground-2.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.efficencyInnerImg{
+z-index: 9999999;
+}
+.efficencyInnerImg img{
+  object-fit: contain;
+width:100%;
+}
+
+/* processHead css */
+.processHead {
+  padding: 0 12rem;
+}
+.processIconHead {
+  position: relative;
+  padding-left: 5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+.processIconHead img {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 50px;
+}
+.process {
+  margin-bottom: 3rem;
+}
+.processFooter {
+  border-left: 5px solid #0000ff;
+  padding-left: 1.5rem;
+  margin: 0 3rem;
+}
+.processFooter h6 {
+  line-height: 1.3;
+}
+
+/* projectCompleteion css */
+.projectCompleteion {
+  padding: 5rem 0;
+}
+.projectCompletionDet {
+  background: rgb(255 255 255 / 82%);
+  border-radius: 20px !important;
+}
+.projectHead {
+  padding: 0 10rem;
+}
+
+.roundedCard
+{
+  border-radius: 15px !important;
+}
+
+/* featureSec css */
+.featureSec {
+  padding: 5rem 0 4rem;
+}
+.featureSec .feature {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+  box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+  min-height: 250px;
+  margin-bottom: 1.5rem;
+}
+.featureSec .feature img {
+  width: 80px;
+  height: auto;
+margin-bottom: 10px;  
+}
+
+/* reviewSec css  */
+.reviewSec {
+  padding: 8rem 0 5rem;
+}
+.review {
+  opacity: 0.5;
+  margin-right: 2rem;
+}
+.reviewSec .slick-current .review {
+  opacity: 1;
+}
+.userDet {
+  position: relative;
+  padding-left: 4rem;
+}
+.userDet img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.reviewSec .slick-prev,
+.reviewSec .slick-next {
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: -50px;
+}
+.reviewSec .slick-prev:before,
+.reviewSec .slick-next:before {
+  font-size: 20px;
+  opacity: 1;
+  color: #000;
+  font-weight: 700;
+}
+.reviewSec .slick-prev.slick-disabled:before,
+.reviewSec .slick-next.slick-disabled:before {
+  opacity: 1;
+  line-height: normal;
+  font-size: 22px;
+}
+.reviewSec .slick-prev {
+  left: 0;
+}
+.reviewSec .slick-next {
+  right: auto;
+  left: 50px;
+}
+.reviewSec .slick-prev:hover,
+.reviewSec .slick-next:hover {
+  border-color: #0000ff;
+}
+.reviewSec .slick-prev:hover:before,
+.reviewSec .slick-next:hover:before {
+  color: #0000ff;
+}
+
+/* footer css */
+footer {
+  padding: 5rem 0 2rem;
+}
+.footerLogo img {
+  width: 70%;
+}
+.footerLogo ul li {
+  margin-right: 0.5rem;
+}
+.footerLogo ul li img {
+  width: 40px;
+}
+.footerContent li {
+  margin-bottom: 0.5rem;
+}
+.footerContent li:last-child {
+  margin: 0;
+}
+.bottomRow ul li {
+  width: 50%;
+}
+.bottomRow ul li img {
+  width: 120px;
+}
+
+@media (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .offcanvas {
+    width: 250px; /* You can adjust the width of the drawer */
+  }
+}
+/* header css */
+header .navbar {
+  padding: 1rem 0 0;
+}
+header .container {
+  background: #fff !important;
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+header .navbar-brand img {
+  width: 150px;
+}
+header .nav-link,
+header .dropdown-item {
+  font-size: 18px;
+  color: #222 !important;
+  padding: 0.5rem 1rem !important;
+  font-weight: 500;
+}
+header .dropdown-menu {
+  min-width: 300px;
+}
+header .dropdown-menu li a svg {
+  width: 35px;
+  border-radius: 5px;
+  padding: 2px;
+}
+.dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: transparent;
+}
+
+/* extensiveSerSec css */
+.extensiveSerSec {
+  padding: 5rem 0;
+}
+.extensiveSer {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+.extensiveSerOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+/* expertiseSec css */
+.expertiseSec {
+  padding: 5rem 0;
+}
+.extensiveSerHead {
+  padding: 0 10rem;
+}
+.expertiseList li {
+  margin-bottom: 3rem;
+  padding-left: 6rem;
+  position: relative;
+}
+.expertiseList li:last-child {
+  margin: 0;
+}
+.expertiseList li img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* creativeCampaingnPg css */
+.creativeCampaingnPg .serviceMain .service {
+  min-height: 370px;
+}
+.creativeCampaingnPg .serviceSec .service h6 {
+  line-height: 1.5;
+}
+.creativeCampaingnPg .serviceSecAdvance .service {
+  min-height: 320px;
+}
